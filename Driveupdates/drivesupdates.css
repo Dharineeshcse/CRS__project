@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Proza Libre', sans-serif;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/smiling-diverse-businesswomen-shake-hands-group-meeting-deal-concept_1163-4686.jpg?w=1060&t=st=1690942566~exp=1690943166~hmac=cebb8efe1ed738558682b3d280a6ed968b88de3e9967c4262b3798319fb1c47a");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    height: 900px;
+    width: 100%;
+    /* background-color:rebeccapurple; */
+    /* position: relative; */
+}
+.topnav{
+    /* position: absolute; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height:100px;
+    background-color:#1F448A;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.innerdiv{
+    margin-right: 15%;
+
+}
+ul li{
+    padding: 30px 20px 0px 20px;
+    margin: 2px;
+    color: aliceblue;
+    font-family: 'Proza Libre', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.kdrive{
+    margin: 30px 0px 0px 10%;
+    color:aliceblue;
+    font-family: 'Proza Libre', sans-serif;
+}
+ul li:hover{
+    background-color:black;
+}
+.bgim {
+    
+  height: 900px;
+  width: 100%;
+}
+.lat{
+    width: 500px;
+    height:200px;
+}
+.ltdrive{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con{
+    margin-top: 30px;
+}
+.con h2,h6,button{
+    padding: 5px;
+    font-family: 'Proza Libre', sans-serif;
+}
+.con button{
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: #1F448A;
+    border-radius: 3px;
+    color: aliceblue;
+    width: 100px;
+}
+.ourser{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(235, 228, 222);
+}
+.ourser .ocon{
+    /* margin:trbl */
+    /* padding:trbl */
+    width: 50%;
+    padding:55px 10px 0px 200px;
+    font-family:'Proza Libre', sans-serif;
+    /* background-color: rebeccapurple; */
+}
+.ocon{
+    font-size: large;
+    font-weight:bolder;
+    /* background-color: teal; */
+}
+.ocon p{
+    width: 350px;
+    padding-top: 20px;
+    color: black;
+    margin-left: 50px;
+    /* background-color: rebeccapurple; */
+    
+}
+.ocon .f{
+    font-size: large;
+    font-weight:lighter;
+}
+.ocon h1{
+    color:#1F448A;
+}
+.oblog{
+    /* background-color: rebeccapurple; */
+    /* display:flex; */
+    /* justify-content: space-evenly; */
+    font-family:'Proza Libre', sans-serif;
+    height:100%;
+    /* width: 50%;0 */
+}
+.sk{
+   width: 200px;
+   height: 450px;
+}
+.oh2{
+    color: #1F448A;
+}
+.op{
+    color: #1F448A;
+    /* background-color: aqua; */
+    width: 50px;
+}
+.oblog h2,p{
+padding: 10px;
+/* color: rebeccapurple; */
+}
+.moto{
+   width: 100%; 
+   height: 500px;
+   background-image:url(../images/moto.jpg);
+   background-size: 100% 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+} 
+.os{
+    /* background-color: red; */
+    width: 250px;
+    margin-left: 100px;
+}
+.mcon{
+        /* padding:trbl */
+    width:100%;
+    font-family:'Proza Libre', sans-serif;
+    background-color: rgba(37, 37, 37, 0.5);
+    /* margin-left: 32%; */
+    padding-top: 160px;
+    height: 500px;
+    
+
+}
+.mcon h1,p{
+   text-align: center;
+   /* background-color: rebeccapurple; */
+    width: 850px;
+    margin-left: 45vh; 
+}
+.mcon .f{
+    font-size: large;
+    font-weight:lighter;
+}
+.mcon .s{
+    font-size: large;
+    font-weight:bolder;
+}
+.about{
+    background-color: black;
+    text-align: center;
+    /* height: 250px; */
+    width: 100%;
+    padding-top: 20px;
+}
+h1,p,.abc {
+    color: white;
+}
+#an{
+    display: flex;
+    width: 550px;
+    margin-left: 10px;
+    /* background-color: yellow; */
+}
+#an a{
+    text-decoration: none;
+    padding: 1px;
+}
+#em{
+    border: none;
+    background: none;
+    width: 450px;
+    height: 50px;
+    color: white;
+
+
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 500px; */
+}
+.abc{
+    display: inline;
+    /* background-color: blue; */
+}
+.maiinp{
+    /* background-color: red; */
+    width: 100px;
+    margin:20px 0px 20px 30px;
+
+}
+.abutt button{
+    background-color:#1F448A;
+    border-radius: 5px;
+}
+.abutt{
+    margin:20px 0px 20px 20px;
+    width: 100px; 
+    /* background-color: red; */
+    
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 300px;
+    /* background-color: yellow; */
+    /* background-color: rebeccapurple; */
+}
+.addr{
+    color: white;
+    /* background-color: red; */
+    width: 100px;
+    margin-right: 10px;
+}
+.kar{
+    /* background-color: yellow; */
+    width: 250px;
+    margin-top: 30px;
+    text-align: start;
+    color: white;
+    font-weight: lighter ;
+
+}
+.comti{
+    display: inline;
+    width: 400px;
+    /* background-color: red; */
+}
+.ke{
+    color: white;
+    text-align: start;
+    padding: 10px 0px 0px 30px;
+    font-weight: lighter;
+}

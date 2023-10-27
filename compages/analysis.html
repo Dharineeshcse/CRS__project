@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company | Analysis</title>
+    <link rel="stylesheet" href="commain.css" >
+    <link rel="shortcut icon" type="image" href="../images/KAHE logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="he">
+                <h1>WELCOME,</h1>
+                <h3>TCS</h3>
+            </div>
+            <div class="nacon">
+                <ul>
+                    <li class="ur">DASHBOARD</li>
+                    <a href="comaplied.html" class="anc"><li class="ur">APPLIED STUDENTS</li></a>
+                    <a href="eligibility.html " class="anc"><li class="ur">COMPANY ELIGIBILITY</li></a>
+                    <li class="ur" id="das">ANALYSIS</li>
+                    <a href="../Mainpage/index.html" class="anc"><li class="ur">SIGNOUT</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="dasdet">
+            <div class="dascons">
+            <h1>ANALYSIS</h1>
+            
+            <p>BRANCHES IN  INDIA</p>
+            <canvas id="myChart" style="min-width:300px;max-width:1000px;height: 150px;"></canvas>
+            </div>
+        </div>
+    </div>
+    <script>
+        // BRANCHES CHART
+    var xValues = ["BANGLORE", "CHENNAI", "COMIBATORE", "SALEM", "MADURAI"];
+var yValues = [55, 49, 44, 24, 15];
+var barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "CHART CONTAINS THE DATA TILL 2023"
+    }
+  }
+});
+</script>
+</body>
+</html>

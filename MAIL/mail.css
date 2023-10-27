@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Proza Libre', sans-serif;
+}
+.topnav{
+    /* position: absolute; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height:100px;
+    background-color:#1F448A;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.innerdiv{
+    margin-right: 15%;
+
+}
+ul li{
+    padding: 30px 20px 0px 20px;
+    margin: 2px;
+    color: aliceblue;
+    font-family: 'Proza Libre', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.kdrive{
+    margin: 30px 0px 0px 10%;
+    color:aliceblue;
+    font-family: 'Proza Libre', sans-serif;
+}
+ul li:hover{
+    background-color:black;
+}
+.ma{
+    width: 1200px;
+    height: 600px;
+    margin-left: 19%;
+}
+.conus{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 700px;
+    margin-left: 350px;
+    align-items: center;
+    width: 1400px;
+    /* background-color: black; */
+}
+.texform{
+    /* background-color: antiquewhite; */
+    width: 600px;
+    /* padding-top: 100px; */
+    /* background-color: rebeccapurple; */
+}
+h1 , h2 , p , h4{
+    padding: 10px;
+}
+.tex{
+    /* background-color: red; */
+    width: 600px;
+}
+.forminp{
+    padding: 10px 0px 10px 20px ;
+}
+.teform{
+    width: 450px;
+    height: 40px; 
+}
+textarea{
+    width: 450px;
+}
+button{
+    /* float:right; */
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #1F448A;
+    color: white;
+    border-radius: 5px ;
+}
+.about{
+    background-color: black;
+    text-align: center;
+    /* height: 250px; */
+    width: 100%;
+    padding-top: 20px;
+}
+
+#an{
+    display: flex;
+    width: 550px;
+    margin-left: 10px;
+    /* background-color: yellow; */
+}
+#an a{
+    text-decoration: none;
+    padding: 1px;
+    color: white;
+}
+#em{
+    border: none;
+    background: none;
+    width: 450px;
+    height: 50px;
+    color: white;
+
+
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 500px; */
+}
+.abc{
+    display: inline;
+    /* background-color: blue; */
+}
+.maiinp{
+    /* background-color: red; */
+    width: 100px;
+    margin:20px 0px 20px 30px;
+
+}
+.abutt button{
+    background-color:#1F448A;
+    border-radius: 5px;
+}
+.abutt{
+    margin:20px 0px 20px 20px;
+    width: 100px; 
+    /* background-color: red; */
+    
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 300px;
+    /* background-color: yellow; */
+    /* background-color: rebeccapurple; */
+}
+.addr{
+    color: white;
+    /* background-color: red; */
+    width: 100px;
+    margin-right: 10px;
+}
+.kar{
+    /* background-color: yellow; */
+    width: 250px;
+    margin-top: 30px;
+    text-align: start;
+    color: white;
+    font-weight: lighter ;
+
+}
+.comti{
+    display: inline;
+    width: 400px;
+    /* background-color: red; */
+}
+.ke{
+    color: white;
+    text-align: start;
+    padding: 10px 0px 0px 30px;
+    font-weight: lighter;
+}

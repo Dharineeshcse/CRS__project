@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+body{
+    background-color: rgb(14, 15, 15);
+}
+.nav{
+    width: 25%;
+}
+.nav h1,h3,ul{
+    color: white;
+    font-family: 'Proza Libre', sans-serif;
+}
+.he{
+    padding: 20px 0px 140px 20px
+}
+.ur{
+    padding: 40px 0px 40px 50px;
+}
+#eli{
+    border-left-width: 20px;
+    border-left-color: green;
+    border-left-style: groove;
+    background-color: black;
+}
+.dascon li,h2{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+.dasdet{
+    margin-top: 35px;
+    width: 100%;
+    background-color: white;
+    height: 700px;
+}
+.dascon li{
+    font-size: larger;
+}
+.dascons{
+    margin: 50px 45px 0px 80px;
+}
+.con{
+    /* padding: 50px 20px 50x 0px ; */
+    /* margin-top: 50px 20px 50px 0px ; */
+    margin-top: 10px;
+    /* background-color: red; */
+}
+.ur:hover{
+    border-left-width: 20px;
+    border-left-color: green;
+    border-left-style: groove;
+    background-color: black;
+}
+.anc{
+    text-decoration: none;
+    color: white;
+    font-family: 'Proza Libre', sans-serif;
+}

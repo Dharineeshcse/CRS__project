@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url("https://img.freepik.com/free-photo/smiley-pregnant-woman-holding-clipboard-pointing-up-with-copy-space_23-2148765097.jpg?w=826&t=st=1688534893~exp=1688535493~hmac=a5fbf308328faff1ffa6c4e53412fdb24abd94a334ad71a02abcae1b9745fe24");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    margin-top: 10px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: green;
+}
+.form{
+    width: 400px;
+    min-height: 350px;
+    max-height: 600px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 45%;
+}
+.form-group{
+    margin-bottom: 20px;
+    height: 48px;
+    /* background-color: brown; */
+    position: relative;
+}
+.form-control{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 1px solid gray;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.form-label{
+    position: absolute;
+    top:15px;
+    left:15px;
+    padding: 0 15px;
+    background-color:white;
+    font-size: 14px;
+}
+.form-control:focus+.form-label{
+    top:-8px;
+    z-index: 10;
+    color:green;
+}
+.form-control:focus+.form-label:invalid{
+    top:-8px;
+    z-index: 10;
+    color:red;
+}
+
+.form-control:focus:valid{
+    border:2px solid green;
+}
+.form-control:focus:invalid{
+    border:2px solid red;
+}
+.form-control:not(:focus):valid+label{
+    top: -8px;
+    z-index: 10;
+}
+.bottom-box{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-box a{
+    text-decoration: none;
+    color:green;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.form-button{
+    display: block;
+    padding: 12px 32px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: green;
+}
+.form-button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+img{
+    width:280px;
+    height: 170px;
+    margin-left: 30px;
+}
+.haveac {
+    display: flex;
+}
+.haveac p{
+    padding-right: 10px;
+}
+.haveac a{
+    text-decoration: none;
+    color:green;
+}
+
